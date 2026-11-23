@@ -33,14 +33,14 @@ flowchart LR
 
 ## Prototype Scope
 
-- Simulated vehicle telemetry for distance, speed and elapsed time.
-- Driving-strategy visualization for the dashboard prototype.
-- Mock sensor inputs for hardware-independent testing.
-- MicroSD logging and TFT display integration in the instrumentation-board design.
+- Telemetry link between an ESP32-S3 and a laptop (pit station).
+- Mocked sensor inputs for distance, speed and elapsed time.
+- Driving-strategy cues sent as the keywords `GAS` and `BREAK`, visualized on a dashboard I built in Canva.
+- MicroSD logging and TFT display integration in the board design.
 
 ## Status
 
-Validated on physical hardware for MQTT communication. The TFT display was developed and tested in simulation (Wokwi) but not validated on physical hardware.
+The telemetry link was tested on a physical ESP32-S3, with a laptop acting as the pit-side receiver while I moved around a cafe. All sensor inputs were mocked. The TFT display was developed and tested in simulation (Wokwi) only. The full vehicle sensor set has not been validated on hardware.
 
 ## Screenshots
 
@@ -63,3 +63,5 @@ The source code is private.
 ## Contact
 
 LinkedIn: https://www.linkedin.com/in/immanuelgianandikav/
+
+Copyright (c) 2026 Immanuel Gianandika Verdeeloveanto. All rights reserved. Documentation only. The source code is private.
