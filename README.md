@@ -31,6 +31,13 @@ flowchart LR
 - Wokwi
 - VS Code
 
+## Prototype Scope
+
+- Simulated vehicle telemetry for distance, speed and elapsed time.
+- Driving-strategy visualization for the dashboard prototype.
+- Mock sensor inputs for hardware-independent testing.
+- MicroSD logging and TFT display integration in the instrumentation-board design.
+
 ## Status
 
 Validated on physical hardware for MQTT communication. The TFT display was developed and tested in simulation (Wokwi) but not validated on physical hardware.
