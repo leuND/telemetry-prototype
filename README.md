@@ -33,7 +33,7 @@ flowchart LR
 
 ## Status
 
-Developed and tested in simulation (Wokwi). Not validated on physical hardware.
+Validated on physical hardware for MQTT communication. The TFT display was developed and tested in simulation (Wokwi) but not validated on physical hardware.
 
 ## Screenshots
 
